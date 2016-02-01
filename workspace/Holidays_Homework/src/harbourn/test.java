@@ -13,18 +13,23 @@ public class test {
 		
 		Sottomarino s = new Sottomarino();
 		s.setStazza(10);
-		s.setWeapons(3);
+		s.setWeapons(0);
 		
 		Aereo a = new Aereo();
 		a.setWeaponsAlpha(5);
-		a.setWeaponsBeta(2);
+		a.setWeaponsBeta(0);
 		
 		Invasore [] i ={a,s};
 		Gioco g = new Gioco(pn);
-		for(int j=0; j<pn.getSize(); j++){
-		g.war(i[j]);
+		
+		int attacchi=0;
+		
+		while(!g.destroyed()){
+			g.war(i);
+		attacchi++;
 		}
 		System.out.println(g.destroyed());
+		System.out.println(attacchi);
 
 	}
 

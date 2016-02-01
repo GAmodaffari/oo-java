@@ -20,7 +20,7 @@ public class Gioco {
 		this.a.size=this.a.getSize()-totloss;
 		
 	}
-	public boolean destroyed(){
+public boolean destroyed(){
 		
 		boolean destroy=false;
 		if(this.a.getSize()==0 || this.a.getSize()<0){
