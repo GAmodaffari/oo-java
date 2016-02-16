@@ -28,8 +28,8 @@ public class test {
 			g.war(i);
 		attacchi++;
 		}
-		System.out.println(g.destroyed());
-		System.out.println(attacchi);
+		System.out.println("Porto distrutto = "+g.destroyed());
+		System.out.println("Numero di attachi: "+attacchi);
 
 	}
 

@@ -17,7 +17,7 @@ public class Gioco {
 			totloss=totloss+a[i].countIndexP();
 		}
 		
-		this.a.size=this.a.getSize()-totloss;
+		this.a.sizeSm=this.a.getSize()-totloss;
 		
 	}
 public boolean destroyed(){

@@ -4,13 +4,13 @@ public class PortoNavale {
 	
 	private String name;
 	private int ships;
-	protected double size;
+	protected double sizeSm;
 
 	public PortoNavale() {
 		
 	}
 	public double getSize(){
-		 return this.size;
+		 return this.sizeSm;
 	}
 	public String getName() {
 		return name;
@@ -25,7 +25,7 @@ public class PortoNavale {
 		this.ships = ships;
 	}
 	public void setSize(int size) {
-		this.size = size;
+		this.sizeSm = size;
 	}
 	
 	
